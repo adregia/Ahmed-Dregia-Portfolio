@@ -1,10 +1,12 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// Custom components
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+
+// Pages
 import About from './Pages/About';
 import Experience from './Pages/Experience';
 import Portfolio from './Pages/Portfolio';
